@@ -9,7 +9,8 @@
         "laravel/framework": "5.2.*",
         "jetcms/models": "dev-master",
         "jetcms/website": "dev-master",
-        "jetcms/admin": "dev-master"
+        "jetcms/admin": "dev-master",
+        "pseudoagentur/soa-sentinel": "dev-develop"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

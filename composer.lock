@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6f24271c9dcc374c41fe56e38038918e",
-    "content-hash": "6527118c97344f6939cfc242e08a75df",
+    "hash": "48e9b9724ef2e991d9cb8338e1555cb9",
+    "content-hash": "8ce7fdf24993bc91c92c34406a5380c0",
     "packages": [
         {
             "name": "artesaos/seotools",
@@ -57,6 +57,61 @@
                 "webmaster"
             ],
             "time": "2015-12-04 13:32:21"
+        },
+        {
+            "name": "barryvdh/elfinder-flysystem-driver",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/barryvdh/elfinder-flysystem-driver.git",
+                "reference": "c1c099b249147b64c2a269ed3c571fedaba5dc57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/barryvdh/elfinder-flysystem-driver/zipball/c1c099b249147b64c2a269ed3c571fedaba5dc57",
+                "reference": "c1c099b249147b64c2a269ed3c571fedaba5dc57",
+                "shasum": ""
+            },
+            "require": {
+                "intervention/image": "~2.0",
+                "league/flysystem": "~1.0",
+                "php": ">=5.4"
+            },
+            "suggest": {
+                "barryvdh/elfinder-builds": "~2.1",
+                "league/glide": "~0.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "elFinderVolumeFlysystem.php"
+                ],
+                "psr-4": {
+                    "Barryvdh\\elFinderFlysystemDriver\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "A Flysystem Driver for elFinder",
+            "keywords": [
+                "Flysystem",
+                "elfinder",
+                "filesystem"
+            ],
+            "time": "2015-11-14 20:15:15"
         },
         {
             "name": "barryvdh/laravel-debugbar",
@@ -231,6 +286,163 @@
             "time": "2015-03-04 12:07:54"
         },
         {
+            "name": "cartalyst/sentinel",
+            "version": "v2.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cartalyst/sentinel.git",
+                "reference": "b0b6445a7b6af5938396e2ccf8185f4b6dd41526"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cartalyst/sentinel/zipball/b0b6445a7b6af5938396e2ccf8185f4b6dd41526",
+                "reference": "b0b6445a7b6af5938396e2ccf8185f4b6dd41526",
+                "shasum": ""
+            },
+            "require": {
+                "cartalyst/support": "~1.0",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "illuminate/cookie": "~5.0",
+                "illuminate/database": "~5.0",
+                "illuminate/http": "~5.0",
+                "illuminate/session": "~5.0",
+                "ircmaxell/password-compat": "~1.0",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "illuminate/database": "By default, Sentinel utilizes the powerful Illuminate database layer.",
+                "illuminate/events": "To hook into various events across Sentinel, we recommend using Illuminate's event dispatcher.",
+                "ircmaxell/password-compat": "Default hashing uses PHP 5.5 password_* functions, with forward-compatible support.",
+                "symfony/http-foundation": "Required for native implementations."
+            },
+            "type": "library",
+            "extra": {
+                "component": "package",
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cartalyst\\Sentinel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Corlett",
+                    "email": "ben.corlett@cartalyst.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Cartalyst LLC",
+                    "email": "help@cartalyst.com"
+                },
+                {
+                    "name": "Bruno Gaspar",
+                    "email": "bruno.gaspar@cartalyst.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Dan Syme",
+                    "email": "dan.syme@cartalyst.com",
+                    "role": "Creator & Designer"
+                },
+                {
+                    "name": "Suhayb Wardany",
+                    "email": "su.wardany@cartalyst.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP 5.4+ Fully-featured Authentication & Authorization System",
+            "keywords": [
+                "auth",
+                "cartalyst",
+                "codeigniter",
+                "fuelphp",
+                "laravel",
+                "php",
+                "security"
+            ],
+            "time": "2015-11-26 00:03:11"
+        },
+        {
+            "name": "cartalyst/support",
+            "version": "v1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cartalyst/support.git",
+                "reference": "c90931d25e89734ba89875a769af6b2e050593a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cartalyst/support/zipball/c90931d25e89734ba89875a769af6b2e050593a5",
+                "reference": "c90931d25e89734ba89875a769af6b2e050593a5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "illuminate/mail": "~4.1|~5.0",
+                "illuminate/validation": "~4.1|~5.0",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "component": "package",
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cartalyst\\Support\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cartalyst LLC",
+                    "email": "help@cartalyst.com"
+                },
+                {
+                    "name": "Bruno Gaspar",
+                    "email": "bruno.gaspar@cartalyst.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Dan Syme",
+                    "email": "dan.syme@cartalyst.com",
+                    "role": "Project Lead"
+                },
+                {
+                    "name": "Suhayb Wardany",
+                    "email": "su.wardany@cartalyst.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Support helpers.",
+            "keywords": [
+                "cartalyst",
+                "helper",
+                "laravel",
+                "support"
+            ],
+            "time": "2015-06-24 13:00:53"
+        },
+        {
             "name": "classpreloader/classpreloader",
             "version": "3.0.0",
             "source": {
@@ -283,6 +495,57 @@
                 "preload"
             ],
             "time": "2015-11-09 22:51:51"
+        },
+        {
+            "name": "dimsav/laravel-translatable",
+            "version": "v5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dimsav/laravel-translatable.git",
+                "reference": "222d8ab86c7529e644bd819930e22ad9dd0527b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dimsav/laravel-translatable/zipball/222d8ab86c7529e644bd819930e22ad9dd0527b1",
+                "reference": "222d8ab86c7529e644bd819930e22ad9dd0527b1",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.0",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dimsav\\Translatable\\": "src/Translatable/"
+                },
+                "classmap": [
+                    "tests"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dimitrios Savvopoulos",
+                    "email": "ds@dimsav.com",
+                    "homepage": "http://dimsav.com"
+                }
+            ],
+            "description": "A Laravel package for multilingual models",
+            "keywords": [
+                "database",
+                "language",
+                "laravel",
+                "translation"
+            ],
+            "time": "2015-11-15 20:32:59"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1353,12 +1616,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jetcms/models.git",
-                "reference": "499866dad546d505ecb1b3a97b069116df1a29dc"
+                "reference": "176010af3f3d1f32b540ab71c62cfd7452367f89"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jetcms/models/zipball/176010af3f3d1f32b540ab71c62cfd7452367f89",
-                "reference": "499866dad546d505ecb1b3a97b069116df1a29dc",
+                "reference": "176010af3f3d1f32b540ab71c62cfd7452367f89",
                 "shasum": ""
             },
             "require": {
@@ -1387,7 +1650,7 @@
                 "controllers",
                 "laravel"
             ],
-            "time": "2015-12-21 13:15:46"
+            "time": "2016-01-20 14:58:28"
         },
         {
             "name": "jetcms/sleeping-owl",
@@ -2524,6 +2787,299 @@
             "time": "2015-05-01 07:00:55"
         },
         {
+            "name": "pseudoagentur/soa-elfinder",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pseudoagentur/laravel-elfinder.git",
+                "reference": "6e86d077c474327f835160ab029e7825b2d3ae34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pseudoagentur/laravel-elfinder/zipball/6e86d077c474327f835160ab029e7825b2d3ae34",
+                "reference": "6e86d077c474327f835160ab029e7825b2d3ae34",
+                "shasum": ""
+            },
+            "require": {
+                "barryvdh/elfinder-flysystem-driver": "0.1.x@dev",
+                "illuminate/support": "5.0.x|5.1.x|5.2.x",
+                "php": ">=5.4.0",
+                "studio-42/elfinder": "2.1.x"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Barryvdh\\Elfinder\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                },
+                {
+                    "name": "Pseudoagentur",
+                    "email": "hello@pseudoagentur.de"
+                },
+                {
+                    "name": "Heiko Bihlmaier",
+                    "email": "octagency@outlook.de"
+                }
+            ],
+            "description": "A Laravel Package to integrate elFinder 2",
+            "keywords": [
+                "elfinder",
+                "filebrowser",
+                "laravel",
+                "tinymce"
+            ],
+            "time": "2016-01-05 17:43:29"
+        },
+        {
+            "name": "pseudoagentur/soa-flash",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pseudoagentur/flash.git",
+                "reference": "a92c4ee835c9495e45ad818a4f672c6ff85f5034"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pseudoagentur/flash/zipball/a92c4ee835c9495e45ad818a4f672c6ff85f5034",
+                "reference": "a92c4ee835c9495e45ad818a4f672c6ff85f5034",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Laracasts\\Flash": "src/"
+                },
+                "files": [
+                    "src/Laracasts/Flash/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeffrey Way",
+                    "email": "jeffrey@laracasts.com"
+                },
+                {
+                    "name": "Pseudoagentur",
+                    "email": "hello@pseudoagentur.de"
+                },
+                {
+                    "name": "Heiko Bihlmaier",
+                    "email": "hello@octagency.de"
+                }
+            ],
+            "description": "Easy flash notifications",
+            "time": "2016-01-12 15:53:17"
+        },
+        {
+            "name": "pseudoagentur/soa-jsvalidation",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pseudoagentur/laravel-jsvalidation.git",
+                "reference": "724e004adc50503e19bfaf09f1e332e90d158e8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pseudoagentur/laravel-jsvalidation/zipball/724e004adc50503e19bfaf09f1e332e90d158e8a",
+                "reference": "724e004adc50503e19bfaf09f1e332e90d158e8a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "~5.0",
+                "illuminate/contracts": "~5.0",
+                "illuminate/http": "~5.0",
+                "illuminate/support": "~5.0",
+                "illuminate/validation": "~5.0",
+                "illuminate/view": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Proengsoft\\JsValidation\\": "src",
+                    "Proengsoft\\JsValidation\\Tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Albert Moreno",
+                    "email": "albert@memorylimit.net",
+                    "homepage": "http://memorylimit.net",
+                    "role": "DevOps"
+                },
+                {
+                    "name": "Pseudoagentur",
+                    "email": "hello@pseudoagentur.de",
+                    "homepage": "https://www.pseudoagentur.de"
+                },
+                {
+                    "name": "Heiko Bihlmaier",
+                    "email": "github@octagency.de",
+                    "homepage": "https://www.octagency.de"
+                }
+            ],
+            "description": "Validate forms transparently with Javascript reusing your Laravel Validation Rules, Messages, and FormRequest",
+            "homepage": "https://github.com/proengsoft/laravel-jsvalidation",
+            "keywords": [
+                "form",
+                "javascript",
+                "jquery",
+                "laravel",
+                "proengsoft",
+                "validation",
+                "validator"
+            ],
+            "time": "2016-01-12 16:08:53"
+        },
+        {
+            "name": "pseudoagentur/soa-sentinel",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pseudoagentur/soa-sentinel.git",
+                "reference": "d176de0fe5a0a8216c7f8176337fea3ef78fbaad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pseudoagentur/soa-sentinel/zipball/d176de0fe5a0a8216c7f8176337fea3ef78fbaad",
+                "reference": "d176de0fe5a0a8216c7f8176337fea3ef78fbaad",
+                "shasum": ""
+            },
+            "require": {
+                "cartalyst/sentinel": "2.0.*",
+                "dimsav/laravel-translatable": "5.4.*",
+                "doctrine/dbal": "~2.3",
+                "illuminate/support": "5.*",
+                "php": ">=5.4.0",
+                "pseudoagentur/soa-elfinder": "3.0.0",
+                "pseudoagentur/soa-flash": "3.0.0",
+                "pseudoagentur/soa-jsvalidation": "3.0.0",
+                "pseudoagentur/user-settings": "3.0.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "3.*",
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SleepingOwl\\Admin": "src/"
+                },
+                "files": [
+                    "src/SleepingOwl/Admin/Http/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pseudoagentur",
+                    "email": "hello@pseudoagentur.de"
+                },
+                {
+                    "name": "Sleeping Owl",
+                    "email": "owl.sleeping@yahoo.com"
+                },
+                {
+                    "name": "Heiko Bihlmaier",
+                    "email": "hello@octagency.de"
+                }
+            ],
+            "description": "Administrative interface builder for Laravel with Sentinel Integration",
+            "homepage": "http://docs.pseudoagentur.de",
+            "keywords": [
+                "admin",
+                "administrator",
+                "crud",
+                "laravel"
+            ],
+            "time": "2016-01-18 21:59:32"
+        },
+        {
+            "name": "pseudoagentur/user-settings",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pseudoagentur/laravel-user-settings.git",
+                "reference": "caa8bed2ecd2a38ceae37b12aa9b1dd5bfee8924"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pseudoagentur/laravel-user-settings/zipball/caa8bed2ecd2a38ceae37b12aa9b1dd5bfee8924",
+                "reference": "caa8bed2ecd2a38ceae37b12aa9b1dd5bfee8924",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "5.*",
+                "illuminate/database": "5.*",
+                "illuminate/support": "5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Grimthorr\\LaravelUserSettings\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Grimthorr",
+                    "email": "phil@hughesbox.co.uk",
+                    "homepage": "http://hughesbox.co.uk"
+                },
+                {
+                    "name": "Pseudoagentur",
+                    "email": "hello@pseudoagentur.de",
+                    "homepage": "https://www.pseudoagentur.de"
+                }
+            ],
+            "description": "Simple user settings facade for Laravel 5.",
+            "homepage": "https://github.com/Pseudoagentur/laravel-user-settings",
+            "time": "2016-01-03 11:51:28"
+        },
+        {
             "name": "psr/http-message",
             "version": "1.0",
             "source": {
@@ -2835,6 +3391,65 @@
                 "yaml"
             ],
             "time": "2014-10-20 15:15:48"
+        },
+        {
+            "name": "studio-42/elfinder",
+            "version": "2.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Studio-42/elFinder.git",
+                "reference": "cfc5312fd4bbea7431d54c3c917dd58167bbd586"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Studio-42/elFinder/zipball/cfc5312fd4bbea7431d54c3c917dd58167bbd586",
+                "reference": "cfc5312fd4bbea7431d54c3c917dd58167bbd586",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "suggest": {
+                "barryvdh/elfinder-flysystem-driver": "VolumeDriver for elFinder to use Flysystem as a root.",
+                "dropbox-php/dropbox-php": "elFinder Volume driver `Dropbox` require `dropbox-php/dropbox-php`.",
+                "pear/auth": "dropbox-php require `pear/auth` or `PHP OAuth extension`.",
+                "pear/http_request2": "dropbox-php require `pear/http_request2` or `PHP OAuth extension`.",
+                "pear/net_url2": "dropbox-php require `pear/net_url2` or `PHP OAuth extension`."
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitry Levashov",
+                    "email": "dio@std42.ru",
+                    "homepage": "http://std42.ru"
+                },
+                {
+                    "name": "Troex Nevelin",
+                    "email": "troex@fury.scancode.ru",
+                    "homepage": "http://std42.ru"
+                },
+                {
+                    "name": "Naoki Sawada",
+                    "email": "hypweb@gmail.com",
+                    "homepage": "http://xoops.hypweb.net"
+                },
+                {
+                    "name": "Community contributions",
+                    "homepage": "https://github.com/Studio-42/elFinder/contributors"
+                }
+            ],
+            "description": "File manager for web",
+            "homepage": "http://elfinder.org",
+            "time": "2016-01-19 01:48:42"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4997,7 +5612,8 @@
     "stability-flags": {
         "jetcms/models": 20,
         "jetcms/website": 20,
-        "jetcms/admin": 20
+        "jetcms/admin": 20,
+        "pseudoagentur/soa-sentinel": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
