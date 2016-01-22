@@ -1,0 +1,1 @@
+<?php require_once(base_path('vendor/jetcms/models/require/JetCmsModels.php'));

@@ -1,0 +1,21 @@
+{
+  "name": "JetCMS",
+  "description": "CMS",
+  "main": "",
+  "authors": [
+    "Suroviy <suroviy@bk.ru>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}

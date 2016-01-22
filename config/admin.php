@@ -153,7 +153,7 @@ return [
 	 */
 	
 	'tinymce' => [
-		'enable_elfinder' => false
+		'enable_elfinder' => true
 	],
 
 	/**

@@ -1,0 +1,11 @@
+/vendor
+/packages
+/images
+/thumb
+/node_modules
+/bower_components
+/customfilesdirectory_in_public
+.idea
+Homestead.yaml
+Homestead.json
+.env

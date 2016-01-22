@@ -157,6 +157,8 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         SleepingOwl\Admin\AdminServiceProvider::class,
+
+        JetCMS\Website\WebsiteServiceProvider::class,
     ],
 
     /*
@@ -202,6 +204,9 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+
+        'Setting'   => Grimthorr\LaravelUserSettings\Facade::class,
+        'Carbon'    => Carbon\Carbon::class,
 
     ],
 
